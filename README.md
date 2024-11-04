@@ -1,4 +1,4 @@
-# Hung-Yi_Lee ML 2023 hw code
+# Hung-Yi_Lee ML 2023 hw
 
 This repository contains my assignments for the Deep Learning course in 2023 spring by Hung-Yi Lee.
 
