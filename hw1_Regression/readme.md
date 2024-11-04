@@ -2,28 +2,6 @@
 
 A project for predicting COVID-19 case numbers based on deep learning.
 
-## Directory Structure
-
-'''
-project-root/
-├── data/                   # Data-related files
-│   ├── raw/               # Raw data
-│   │   ├── covid.train.csv
-│   │   └── covid.test.csv
-│   ├── dataset.py         # Dataset class definition
-│   └── preprocess.py      # Data preprocessing functions
-├── models/                # Model-related files
-│   └── model.py           # Model definition
-├── options/               # Configuration files
-│   ├── options.py         # Configuration parameters
-│   └── util.py            # Utility functions
-├── utils/                 # Utility functions
-│   └── logger.py          # Logging utility
-├── train.py               # Training script
-├── test.py                # Testing script
-└── requirements.txt       # Project dependencies
-'''
-
 ## Quick Start
 
 ### 1. Environment Setup
