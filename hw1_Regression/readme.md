@@ -1,51 +1,49 @@
-# COVID-19 病例预测模型
+# COVID-19 Case Prediction Model
 
-基于深度学习的 COVID-19 病例数预测项目。
+A project for predicting COVID-19 case numbers based on deep learning.
 
-## 目录结构
+## Directory Structure
 
-├── data/                   # 数据相关文件
-│ ├── raw/ # 原始数据
-│ │ ├── covid.train.csv
-│ │ └── covid.test.csv
-│ ├── dataset.py # 数据集类定义
-│ └── preprocess.py # 数据预处理函数
-├── models/ # 模型相关
-│ └── model.py # 模型定义
-├── options/ # 配置文件
-│ ├── options.py # 配置参数
-│ └── util.py # 工具函数
-├── utils/ # 工具函数
-│ └── logger.py # 日志工具
-├── train.py # 训练脚本
-├── test.py # 测试脚本
-└── requirements.txt # 项目依赖
+project-root/
+├── data/                   # Data-related files
+│   ├── raw/               # Raw data
+│   │   ├── covid.train.csv
+│   │   └── covid.test.csv
+│   ├── dataset.py         # Dataset class definition
+│   └── preprocess.py      # Data preprocessing functions
+├── models/                # Model-related files
+│   └── model.py           # Model definition
+├── options/               # Configuration files
+│   ├── options.py         # Configuration parameters
+│   └── util.py            # Utility functions
+├── utils/                 # Utility functions
+│   └── logger.py          # Logging utility
+├── train.py               # Training script
+├── test.py                # Testing script
+└── requirements.txt       # Project dependencies
 
-## 快速开始
 
-### 1. 环境配置
+## Quick Start
+
+### 1. Environment Setup
 - `pip install -r requirements.txt`
 
-### 2. 数据准备
+### 2. Data Preparation
 
-- 将训练数据和测试数据放入 `data/raw/` 目录
+- Place the training data and test data in the `data/raw/` directory.
 
-### 3. 训练模型
+### 3. Train the Model
 
 - `python train.py`  
 
-### 4. 预测 
+### 4. Make Predictions 
 
 - `python test.py` 
 
-## 可视化训练过程
+## Notes
 
-- `tensorboard --logdir=runs/`  
-
-## 注意事项
-
-1. 确保已安装 CUDA（使用 GPU）
-2. 训练日志保存在 `train.log`
-3. 预测结果保存在 `predictions/pred.csv`
-4. 最佳模型保存在 `models/model.ckpt`
+1. Ensure CUDA is installed if using a GPU.
+2. Training logs are saved in `train.log`
+3. Prediction results are stored in `predictions/pred.csv`
+4. The best model is saved as `models/model.ckpt`
 
