@@ -4,7 +4,7 @@ A project for predicting COVID-19 case numbers based on deep learning.
 
 ## Directory Structure
 
-"""
+'''
 project-root/
 ├── data/                   # Data-related files
 │   ├── raw/               # Raw data
@@ -22,7 +22,7 @@ project-root/
 ├── train.py               # Training script
 ├── test.py                # Testing script
 └── requirements.txt       # Project dependencies
-"""
+'''
 
 ## Quick Start
 
