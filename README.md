@@ -8,6 +8,6 @@ You can find the course materials at: [Deep Learning Course](https://speech.ee.n
 
 ## Contact
 
-For questions or suggestions, please reach out to me at:[pdameich@mail.ustc.edu.cn](mailto:pdameich@mail.ustc.edu.cn)
+For questions or suggestions, please reach out to me at: [pdameich@mail.ustc.edu.cn](mailto:pdameich@mail.ustc.edu.cn)
 
 Thank you for your support!
